@@ -1,0 +1,27 @@
+{
+  "name": "wechat-authorization",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "webpack-dev-server -e=DEV",
+    "build": "builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "bitbar-webpack-progress-plugin": "^1.0.0",
+    "cmd-argvs": "^1.0.1",
+    "extended-define-webpack-plugin": "^0.1.3",
+    "html-webpack-plugin": "^3.2.0",
+    "import-local": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vconsole-webpack-plugin": "^1.4.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-copy-plugin": "^0.0.4",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
